@@ -1,6 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapper.App", "WebScrapper.App\WebScrapper.App.csproj", "{92AE1DCF-BBE1-4B8E-A5DA-3CB0503BD848}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebScrapper.App", "WebScrapper.App\WebScrapper.App.csproj", "{92AE1DCF-BBE1-4B8E-A5DA-3CB0503BD848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapper.Test", "WebScrapper.Test\WebScrapper.Test.csproj", "{23806B6C-65F9-40EA-A4E3-23FA2A435E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapper.HTML", "WebScrapper.HTML\WebScrapper.HTML.csproj", "{9EE4966D-30E2-4842-8A49-13D31C787A65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapper.DND.API", "WebScrapper.DND.API\WebScrapper.DND.API.csproj", "{BCC96764-DB91-4300-8010-6A5AFE14C5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebScrapper.DND.Data", "WebScrapper.DND.Data\WebScrapper.DND.Data.csproj", "{3A38FF9E-6D52-44FF-84B0-F6903790D608}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +23,27 @@ Global
 		{92AE1DCF-BBE1-4B8E-A5DA-3CB0503BD848}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92AE1DCF-BBE1-4B8E-A5DA-3CB0503BD848}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92AE1DCF-BBE1-4B8E-A5DA-3CB0503BD848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23806B6C-65F9-40EA-A4E3-23FA2A435E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23806B6C-65F9-40EA-A4E3-23FA2A435E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23806B6C-65F9-40EA-A4E3-23FA2A435E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23806B6C-65F9-40EA-A4E3-23FA2A435E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE4966D-30E2-4842-8A49-13D31C787A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE4966D-30E2-4842-8A49-13D31C787A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE4966D-30E2-4842-8A49-13D31C787A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE4966D-30E2-4842-8A49-13D31C787A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC96764-DB91-4300-8010-6A5AFE14C5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC96764-DB91-4300-8010-6A5AFE14C5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC96764-DB91-4300-8010-6A5AFE14C5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC96764-DB91-4300-8010-6A5AFE14C5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A38FF9E-6D52-44FF-84B0-F6903790D608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A38FF9E-6D52-44FF-84B0-F6903790D608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A38FF9E-6D52-44FF-84B0-F6903790D608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A38FF9E-6D52-44FF-84B0-F6903790D608}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20A78329-56C5-412B-9119-E495EE6FADFC}
 	EndGlobalSection
 EndGlobal
