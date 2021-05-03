@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>DND.API</AssemblyName>
+    <RootNamespace>DND.API</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\DND.API\DND.API.csproj" />
       <ProjectReference Include="..\WebScrapper.HTML\WebScrapper.HTML.csproj" />
     </ItemGroup>
 

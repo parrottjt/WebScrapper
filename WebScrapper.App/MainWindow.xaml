@@ -21,7 +21,7 @@
             <RowDefinition Height="Auto" MinHeight="10px"/>
         </Grid.RowDefinitions>
 
-        <TextBox Name="HtmlString" Grid.Row="1" Grid.Column="1"  Grid.ColumnSpan="3" VerticalScrollBarVisibility="Auto"/>
+        <TextBox Name="HtmlString" Grid.Row="1" Grid.Column="1"  Grid.ColumnSpan="3" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
         <Button Name="Generate" Grid.Row="2" Grid.Column="2" Margin="10" Click="WebPageDataClick">
             Generate Data
         </Button>

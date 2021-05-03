@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using WebScrapper.DND.Data;
+using DND.Data;
 
 namespace WebScrapper.Test
 {
@@ -21,40 +21,25 @@ namespace WebScrapper.Test
         [Test]
         public void Add_SpellLevel()
         {
-            spell = new Spell(level: -1, description: "This is a spell", damageType: 0);
-            Assert.AreEqual(0,spell.Level);
-
             spell = new Spell();
             Assert.AreEqual(0, spell.Level);
 
-            spell = new Spell(level: 9);
+            spell = new Spell(level: "9th");
             Assert.AreEqual(9, spell.Level);
         }
 
         [Test]
         public void Add_SpellDescription()
         {
-            spell = new Spell(level: 1, description: "this is a spell", damageType: 0);
+            spell = new Spell(level: "1st", description: "this is a spell", damageType: 0);
             Assert.IsNotEmpty(spell.Description);
         }
 
         [Test]
         public void Add_SpellDamageType()
         {
-            spell = new Spell("",1, "This is a spell", "", DamageType.Piercing);
+            spell = new Spell("","1st", "This is a spell", "", DamageType.Piercing);
             Assert.AreEqual(DamageType.Piercing, spell.DamageType);
-        }
-
-        [Test]
-        public void Check_SpellLevel_LessThanZero_SetsToZero()
-        {
-            Assert.AreEqual(0, spell.Level);
-
-            spell = new Spell(level: -5);
-            Assert.AreEqual(0, spell.Level);
-
-            spell = new Spell(level: 5);
-            Assert.AreEqual(5, spell.Level);
         }
 
         [Test]

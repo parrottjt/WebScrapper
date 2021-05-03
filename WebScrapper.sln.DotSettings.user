@@ -1,8 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4079208e_002Deca4_002D45df_002Dae9f_002D904a588277f7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="HTTPRequestTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4079208e_002Deca4_002D45df_002Dae9f_002D904a588277f7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="HTTPRequestTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::23806B6C-65F9-40EA-A4E3-23FA2A435E45::.NETCoreApp,Version=v3.1::WebScrapper.Test.HTTPRequestTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::23806B6C-65F9-40EA-A4E3-23FA2A435E45::.NETCoreApp,Version=v3.1::WebScrapper.Test.DndSpellTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::23806B6C-65F9-40EA-A4E3-23FA2A435E45::.NETCoreApp,Version=v3.1::WebScrapper.Test.DndFeatureTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::23806B6C-65F9-40EA-A4E3-23FA2A435E45::.NETCoreApp,Version=v3.1::WebScrapper.Test.DndAPITests.Create_Spell_FromWebpage&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

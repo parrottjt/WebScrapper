@@ -1,4 +1,4 @@
-﻿namespace WebScrapper.DND.Data
+﻿namespace DND.Data
 {
     public enum SchoolOfMagic
     {

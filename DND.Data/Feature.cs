@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WebScrapper.DND.Data
+namespace DND.Data
 {
     public class Feature
     {

@@ -25,7 +25,7 @@ namespace WebScrapper.HTML
 
         public static List<HtmlNode> ParseHtml(string html, string nodeFilter, string attribute, string nameOfAttribute)
         {
-            HtmlDocument htmlDocument = new HtmlDocument();
+            HtmlDocument htmlDocument = new HtmlDocument(); 
             htmlDocument.LoadHtml(html);
 
             var detailNodes = htmlDocument.DocumentNode.Descendants(nodeFilter)
@@ -57,6 +57,11 @@ namespace WebScrapper.HTML
         public static string GetAttributeName(HtmlNode node, string attribute)
         {
             return node.GetAttributeValue(attribute,"");
+        }
+
+        public static string GetElementContent(HtmlNode node)
+        {
+            return node.InnerText;
         }
 
         public static void WriteNamesToFile(List<string> names)

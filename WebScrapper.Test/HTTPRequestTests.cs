@@ -31,9 +31,9 @@ namespace WebScrapper.Test
             var response = GatherHTML.CallUrl(url);
             Assert.IsNotEmpty(GatherHTML.ParseHtml(response.Result,"div","class","subitems-list-details-item"));
 
-            url = "https://www.dndbeyond.com/spells";
+            url = "https://www.dndbeyond.com/spells/absorb-elements";
             response = GatherHTML.CallUrl(url);
-            Assert.IsNotEmpty(GatherHTML.ParseHtml(response.Result,"div","class","info"));
+            Assert.IsNotEmpty(GatherHTML.ParseHtml(response.Result,"div","class","ddb-statblock-spell"));
         }
     }
 }

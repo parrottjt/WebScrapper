@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HtmlAgilityPack" Version="1.11.33" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\WebScrapper.HTML\WebScrapper.HTML.csproj" />
+        <ProjectReference Include="..\DND.Data\DND.Data.csproj" />
+    </ItemGroup>
+    
+</Project>
