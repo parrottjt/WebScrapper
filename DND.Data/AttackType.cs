@@ -3,7 +3,8 @@
     public enum AttackType
     {
         None,
-        Attack,
+        Ranged,
+        Melee,
         StrSave,
         DexSave,
         ConSave,

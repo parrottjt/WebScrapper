@@ -1,5 +1,5 @@
-﻿using NUnit.Framework;
-using WebScrapper.DND.Data;
+﻿using DND.Data;
+using NUnit.Framework;
 
 namespace WebScrapper.Test
 {

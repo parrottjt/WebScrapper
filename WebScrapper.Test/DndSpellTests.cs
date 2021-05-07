@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System.Collections.Generic;
+using NUnit.Framework;
 using DND.Data;
 
 namespace WebScrapper.Test
@@ -24,22 +25,22 @@ namespace WebScrapper.Test
             spell = new Spell();
             Assert.AreEqual(0, spell.Level);
 
-            spell = new Spell(level: "9th");
+            spell = new Spell(level: 9);
             Assert.AreEqual(9, spell.Level);
         }
 
         [Test]
         public void Add_SpellDescription()
         {
-            spell = new Spell(level: "1st", description: "this is a spell", damageType: 0);
+            spell = new Spell(level: 1, description: "this is a spell", damageAndEffectType: 0);
             Assert.IsNotEmpty(spell.Description);
         }
 
         [Test]
         public void Add_SpellDamageType()
         {
-            spell = new Spell("","1st", "This is a spell", "", DamageType.Piercing);
-            Assert.AreEqual(DamageType.Piercing, spell.DamageType);
+            spell = new Spell("",1, "This is a spell", "", damageAndEffectType: DamageAndEffectType.Piercing);
+            Assert.AreEqual(DamageAndEffectType.Piercing, spell.DamageAndEffectType);
         }
 
         [Test]
@@ -52,7 +53,7 @@ namespace WebScrapper.Test
         [Test]
         public void Check_DefaultDamageType_IsBludgeoning()
         {
-            Assert.AreEqual(DamageType.Slashing, spell.DamageType);
+            Assert.AreEqual(DamageAndEffectType.Slashing, spell.DamageAndEffectType);
         }
 
         [Test]
